@@ -1,27 +1,63 @@
-# CLASSE ABSTRATA 2/2
+### 📋 Descrição do Projeto
 
-Crie a classe Produto que possui os atributos nome, preço de custo e preço de venda. Possui também o método concreto calcularLucro.
+Este projeto implementa um sistema de gerenciamento de produtos utilizando classes abstratas em Java, demonstrando os conceitos de herança e polimorfismo.
 
-A classe ProdutoAlimenticio é derivada de Produto e possui os atributos data de validade e informações nutricionais.
+O sistema consiste em:
 
-A classe ProdutoVestuario possui os atributos tamanho, cor e material.
+Classe Abstrata Produto que define:
 
-Todas as classes devem ter métodos para salvar, deletar e atualizar registros em um banco de dados relacional.
+- Atributos básicos: nome, preço de custo e preço de venda
+- Método concreto: calcularLucro()
+- Métodos de operações CRUD: salvar(), atualizar(), deletar()
 
-### 📋 Pré-requisitos
+Classes Concretas que herdam de Produto:
 
-- Eclipse IDE
+- ProdutoAlimenticio: com atributos específicos como data de validade e informações nutricionais
+- ProdutoVestuario: com atributos específicos como tamanho, cor e material
   
-### 🔧 Instalação
+### 🔧 Pré-requisitos
 
-* Explicação de como deve ser utilizado o projeto
+- Java JDK 8 ou superior
+- Eclipse IDE (ou outra IDE Java de sua preferência)
 
-## 🛠️ Construído com
+### 🚀 Instalação e Execução
 
-O código deve ser inicializado por uma IDE que aceite Java, como o Eclipse.
+1. Clone o repositório:
 
-* IDE Eclipse
+```
+git clone https://github.com/seu-usuario/ABSTRATA_PRODUTO
+```
+
+2. Importe o projeto no Eclipse:
+- File → Import → Existing Projects into Workspace
+- Selecione a pasta do projeto clonado
+
+3. Execute a classe Main localizada no pacote Main para ver a demonstração do sistema.
+
+
+### 🛠️ Funcionalidades Implementadas
+
+- Cálculo automático de lucro (diferença entre preço de venda e custo)
+- Operações básicas de CRUD (Create, Read, Update, Delete)
+- Especialização para diferentes tipos de produtos
+- Exibição de informações específicas para cada tipo de produto
+
+### 📝 Exemplo de Saída
+
+Ao executar a classe Main, você verá:
+
+```
+- Lucro da Maçã: 0.5
+- Lucro da Camisa: 15.0
+---------------------------------------------
+Produto 'Maçã' está sendo Salvo.
+Produto 'Camisa' está sendo Salvo.
+Produto 'Maçã' está sendo Atualizado.
+Produto 'Camisa' está sendo Atualizado.
+Produto 'Maçã' está sendo Deletado.
+Produto 'Camisa' está sendo Deletado.
+```
 
 ## ✒️ Autores
 
-* **Mateus Franco Bezerra** - *Trabalho Inicial* - CLASSE ABSTRATA 2/2
+* **Mateus Franco Bezerra** - CLASSE ABSTRATA 2/2
