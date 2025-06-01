@@ -1,3 +1,5 @@
+# Sistema de Produtos com Classes Abstratas em Java
+
 ### 📋 Descrição do Projeto
 
 Este projeto implementa um sistema de gerenciamento de produtos utilizando classes abstratas em Java, demonstrando os conceitos de herança e polimorfismo.
